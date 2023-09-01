@@ -18,7 +18,24 @@
 
 <h2>🚀 Getting Started</h2>
 
-1. **Clone the Repository**: 
+1. **Clone the Repository**:
    ```bash
    git clone https://github.com/your-username/images-to-pdf.git
 
+2. **Install required packages**:
+   Install the packages in the requirements.txt file.
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Find the path to the folder where you cloned the repository**:
+   ```bash
+   pwd
+   ```
+   control/cmd + c the result and paste it into the Siri Shortcut.
+5. **Find the path to the python script**:
+   ```bash
+   cd images2pdf
+   realpath images2pdf.py
+   ```
+6. **Copy paste the path into the Siri Shortcut**.
+7. **Run the Siri Shortcut**:
